@@ -6,6 +6,7 @@ require 'rspec'
 require 'database_cleaner'
 require 'pry'
 require './app/app'
+require './app/models/video'
 
 require File.join(File.dirname(__FILE__), '..', '/app/app.rb')
 

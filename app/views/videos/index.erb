@@ -1,0 +1,10 @@
+<h1> Videos </h1>
+
+<ul id='videos'>
+  <% @videos.each do |video| %>
+    <li>
+      Title: <%= video.title %>
+      URL:   <%= video.url   %>
+    </li>
+  <% end %>
+</ul>
